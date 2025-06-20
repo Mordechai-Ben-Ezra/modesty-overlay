@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Modesty Overlay</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.9.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.2.0/dist/body-pix.min.js"></script>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin: 1em; }
+    canvas { max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>העלו תמונה לצניעות אוטומטית</h1>
+  <input type="file" id="file-input" accept="image/*">
+  <canvas id="output"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
